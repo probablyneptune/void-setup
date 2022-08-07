@@ -1,10 +1,15 @@
 # void-setup
-yeah, this will practically do my void setup lol
+this will setup void
 
-do not forget to make this an executable
+this script is for **nvidia only**
+i have no idea what packages are for amd or intel gpus
+
+# do not forget to make this an executable
+(else it won't work, obviously)
 
 ```shell
-cd ~
-cd void-setup
+git clone https://github.com/probablyneptune/void-setup
+
+cd ~ && cd void-setup
 chmod +x setup.sh
 ```
